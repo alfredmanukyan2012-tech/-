@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatinv",
+  "version": "${version}",
+  "name": "Cheat Inventory",
+  "description": "Creative-style item menu in survival. Singleplayer only.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.cheatinv.CheatInv"],
+    "client": ["com.example.cheatinv.CheatInvClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
